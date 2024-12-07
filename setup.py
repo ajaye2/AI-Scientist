@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ai-scientist",
-    version="0.1.0",
+    version="0.1.1",
     author="",  # TODO: Add your name
     author_email="",  # TODO: Add your email
     description="An AI-powered scientific research assistant",
