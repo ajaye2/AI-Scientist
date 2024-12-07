@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ai-scientist",
-    version="0.1.1",
+    version="0.1.2",
     author="",  # TODO: Add your name
     author_email="",  # TODO: Add your email
     description="An AI-powered scientific research assistant",
@@ -49,6 +49,8 @@ setup(
             "templates/*/*.py",
             "templates/*/template.tex",
             "templates/*/references.bib",
+            "templates/*/*.pdf", 
+            "ai_scientist/fewshot_examples/*",
         ],
     },
     include_package_data=True,
