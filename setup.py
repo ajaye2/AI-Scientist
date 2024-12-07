@@ -51,6 +51,7 @@ setup(
             "templates/*/references.bib",
             "templates/*/*.pdf", 
             "ai_scientist/fewshot_examples/*",
+            "fewshot_examples/*.pdf",
         ],
     },
     include_package_data=True,
