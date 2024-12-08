@@ -177,12 +177,7 @@ def get_response_from_llm(
                 ],
             }
         ]
-    elif model in [
-        "gpt-4o-2024-05-13",
-        "gpt-4o-mini-2024-07-18",
-        "gpt-4o-2024-08-06",
-        "gpt-4o-mini",
-    ]:
+    elif 'gpt-4' in model:
         new_msg_history = msg_history + [{"role": "user", "content": msg}]
         response = client.chat.completions.create(
             model=model,
